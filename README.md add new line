@@ -1,1 +1,14 @@
-# Reverse-digit-number
+#include<iostream>
+using namespace std;
+int main()
+{
+int n,r,s=0;
+cout<<"Enter any number";
+cin>>n;
+for(int i=1;i<=n;i++)[
+r=n%10;
+s=s*10+r;
+n=n/10;
+}
+cout<<"Reverse of digit"<<s<<endl;
+}
